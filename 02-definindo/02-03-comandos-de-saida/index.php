@@ -64,7 +64,7 @@ fullStackPHPClassSession("printf", __LINE__);
   massa. Integer tristique urna in luctus convallis. Nullam tempus accumsan lacinia. Aenean in risus in 
   nisl suscipit ultrices. Sed eros nunc, ultricies in lacinia sed, ornare ac orci. In condimentum consequat 
   dolor vel efficitur. Pellentesque id nulla est. Vivamus suscipit nec ligula non posuere. Pellentesque
-  libero augue, rhoncus ut libero non, euismod congue ipsum. Nam accumsan lectus ac metus volutpat consequat.
+  libero augue, rhoncuts ut libero non, euismod congue ipsum. Nam accumsan lectus ac metus volutpat consequat.
   Pellentesque non est eget nulla feugiat sagittis. Nunc a viverra dui. Quisque fermentum imperdiet sem 
   vel iaculis";
 

@@ -58,14 +58,35 @@ echo "<pre>", print_r($array, true), "</pre>";
  */
 fullStackPHPClassSession("printf", __LINE__);
 
+  $article = "<article><h1>%s</h1><p>%s</p></article>";
+  $title = "{$hello}  {$code}";
+  $subtitle = "Aliquam tristique, nunc nec pellentesque volutpat, arcu orci dignissim orci, ac tempus turpis erat at 
+  massa. Integer tristique urna in luctus convallis. Nullam tempus accumsan lacinia. Aenean in risus in 
+  nisl suscipit ultrices. Sed eros nunc, ultricies in lacinia sed, ornare ac orci. In condimentum consequat 
+  dolor vel efficitur. Pellentesque id nulla est. Vivamus suscipit nec ligula non posuere. Pellentesque
+  libero augue, rhoncus ut libero non, euismod congue ipsum. Nam accumsan lectus ac metus volutpat consequat.
+  Pellentesque non est eget nulla feugiat sagittis. Nunc a viverra dui. Quisque fermentum imperdiet sem 
+  vel iaculis";
 
+  printf($article, $title, $subtitle);
+  echo sprintf($article, $title, $subtitle);
 /**
  * [ vprintf ] https://php.net/manual/pt_BR/function.vprintf.php
  */
 fullStackPHPClassSession("vprintf", __LINE__);
+
+$company = "<article><h1>Escola %s</h1><p>Curso <b>%s</b><b>, aula </b>%s</p></article>";
+vprintf($company, $array);
 
 
 /**
  * [ var_dump ] https://php.net/manual/pt_BR/function.var-dump.php
  */
 fullStackPHPClassSession("var_dump", __LINE__);
+
+var_dump(
+     $array,
+     $hello,
+     $code,
+     $company
+);

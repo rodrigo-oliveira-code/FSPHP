@@ -80,7 +80,7 @@ vprintf($company, $array);
 
 
 /**
- * [ var_dump ] https://php.net/manual/pt_BR/function.var-dump.php
+' * [ var_dump ] https://php.net/manual/pt_BR/function.var-dump.php
  */
 fullStackPHPClassSession("var_dump", __LINE__);
 

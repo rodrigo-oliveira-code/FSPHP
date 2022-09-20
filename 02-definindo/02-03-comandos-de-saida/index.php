@@ -40,7 +40,7 @@ print $code;
 //print, diferente do echo, não aceita a vírgula
 /*
  * [ print_r ] https://php.net/manual/pt_BR/function.print-r.php
- */
+ ***/
 fullStackPHPClassSession("print_r", __LINE__);
 
 $array = [
